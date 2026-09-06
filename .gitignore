@@ -4,3 +4,10 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Metals (Scala Language Server)
+# Reference: https://scalameta.org/metals/docs/editors/vscode#files-and-directories-to-include-in-your-gitignore
+.metals/
+.bloop/
+.ammonite/
+metals.sbt
